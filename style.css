@@ -1,0 +1,70 @@
+#body {
+    border-inline
+}
+
+body {
+    height: 1200px;
+    width: 1200px;
+    background: linear-gradient( to right, rgb(29, 38, 45) 26%, white 10%);
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px dotted white
+}
+
+.CV {
+    color: dodgerblue;
+    text-align: center;
+    color: black
+}
+
+.Name {
+    color: white;
+}
+
+.Contact {
+    color: white;
+}
+
+#Phone {
+    color: white;
+}
+
+#con {
+    color: white;
+    font-size: larger;
+}
+
+.Add {
+    font-size: 16px;
+}
+
+.row {
+    font-size: large;
+}
+
+.Language {
+    color: white;
+}
+
+.Hobbies {
+    color: white;
+}
+
+.Summary {
+    color: steelblue
+}
+
+.Education {
+    color: steelblue
+}
+
+.Skills {
+    color: steelblue
+}
+
+.Achievements {
+    color: steelblue
+}
