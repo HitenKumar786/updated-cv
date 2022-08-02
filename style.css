@@ -7,7 +7,7 @@ body {
 img {
     width: 150px;
     border-radius: 50%;
-    border: 2px dotted white
+    border: 6px dotted green;
 }
 
 .CV {
