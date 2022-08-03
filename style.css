@@ -11,9 +11,12 @@ img {
 }
 
 .CV {
-    color: dodgerblue;
+    border:black;
+    border-width: 2px;
+     border-style:solid;
     text-align: center;
     color: black
+
 }
 
 .Name {
@@ -25,7 +28,9 @@ img {
 }
 
 #Phone {
+    width: 270px;
     color: white;
+
 }
 
 #con {
