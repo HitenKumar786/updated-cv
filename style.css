@@ -10,12 +10,14 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .f2container {
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 body {
@@ -28,66 +30,77 @@ img {
     width: 150px;
     border-radius: 50%;
     border: 2px dotted green;
+    flex-wrap: wrap;
 }
 
 .CV {
-    <<<<<<< HEAD color: black;
+     color: black;
     display: flex;
     justify-content: center;
-    =======border: black;
-    border-width: 2px;
-    border-style: solid;
+    border:1px solid black;
+    flex-wrap: wrap;
     text-align: center;
-    color: black >>>>>>> 9c620fdf4614d355b19e33de0450ca2a23104b96
+   
 }
 
 .Name {
     color: white;
+    flex-wrap: wrap;
 }
 
 .Contact {
     color: white;
+    flex-wrap: wrap;
 }
 
 #Phone {
     width: 270px;
     color: white;
+    flex-wrap: wrap;
 }
 
 #con {
     color: white;
     font-size: large;
+    flex-wrap: wrap;
 }
 
 .Add {
     font-size: 15px;
+    flex-wrap: wrap;
 }
 
 .row {
     font-size: large;
+    flex-wrap: wrap;
 }
 
 .Language {
     color: white;
+    flex-wrap: wrap;
 }
 
 .Hobbies {
     color: white;
+    flex-wrap: wrap;
 }
 
 .Summary {
     color: steelblue;
-    box-shadow: 10px 10px 30px rgb(2, 0, 0, 0, 1);
+    flex-wrap: wrap;
 }
 
 .Education {
-    color: steelblue
+    color: steelblue;
+    flex-wrap: wrap;
 }
 
 .Skills {
-    color: steelblue
+    color: steelblue;
+    flex-wrap: wrap;
 }
 
 .Achievements {
-    color: steelblue
+    color: steelblue;
+    flex-wrap: wrap;
 }
