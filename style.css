@@ -3,6 +3,7 @@
     height: 200%;
     border: 2px solid black;
     background: linear-gradient( to right, rgb(29, 38, 45) 30%, white 15%);
+    flex-wrap: wrap;
 }
 
 .f1container {
@@ -20,6 +21,7 @@
 body {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 img {
@@ -29,9 +31,14 @@ img {
 }
 
 .CV {
-    color: black;
+    <<<<<<< HEAD color: black;
     display: flex;
     justify-content: center;
+    =======border: black;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    color: black >>>>>>> 9c620fdf4614d355b19e33de0450ca2a23104b96
 }
 
 .Name {
@@ -43,6 +50,7 @@ img {
 }
 
 #Phone {
+    width: 270px;
     color: white;
 }
 
