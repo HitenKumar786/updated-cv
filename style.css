@@ -1,7 +1,25 @@
+.fcontainer {
+    display: flex;
+    height: 200%;
+    border: 2px solid black;
+    background: linear-gradient( to right, rgb(29, 38, 45) 30%, white 15%);
+}
+
+.f1container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.f2container {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
 body {
-    height: 1200px;
-    width: 1200px;
-    background: linear-gradient( to right, rgb(29, 38, 45) 26%, white 15%);
+    display: flex;
+    align-items: flex-start;
 }
 
 img {
@@ -11,9 +29,9 @@ img {
 }
 
 .CV {
-    color: dodgerblue;
-    text-align: center;
-    color: black
+    color: black;
+    display: flex;
+    justify-content: center;
 }
 
 .Name {
@@ -30,11 +48,11 @@ img {
 
 #con {
     color: white;
-    font-size: larger;
+    font-size: large;
 }
 
 .Add {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .row {
@@ -50,7 +68,8 @@ img {
 }
 
 .Summary {
-    color: steelblue
+    color: steelblue;
+    box-shadow: 10px 10px 30px rgb(2, 0, 0, 0, 1);
 }
 
 .Education {
